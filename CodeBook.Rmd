@@ -1,0 +1,103 @@
+---
+title: "Getting and Cleaning Data Course Project: Dataset Description"
+author: "Karen Martin"
+date: "Sunday, June 12, 2016"
+output: html_document
+---
+
+The tidyData.txt file contains the following variables:  
+
+- **subject** an integer identifying the subject for each observation
+- **activity** a label describing the activity the subject performed during each observation
+
+The rest of the variables are measured from or derived from measurements from the phone's accelerometer and gyroscope.   
+
+All of the variables whose names begin with **t**are time domain signals.   
+
+The **f** variables are frequency domain signals obtained from Fast Fourier Transforms of the corresponding time domain variables. 
+
+Any **Acc** measurement is from the triaxial linear accereation measured by the accelerometer, and any"**Gyro** measurement is angular velocity measured by the gyroscope. 
+
+**Jerk** variables are derived from linear and angular acceleration. 
+
+**Mag** variables are the magnitudes of the corresponding XYZ variables, calculated as the Euclidean norm.
+
+* **tBodyAccMeanX**  
+* **tBodyAccMeanX**  
+* **tBodyAccMeanZ**  
+* **tBodyAccStdX**  
+* **tBodyAccStdY**  
+* **tBodyAccStdZ**  
+* **tGravityAccMeanX**    
+* **tGravityAccMeanY**  
+* **tGravityAccMeanZ**  
+* **tGravityAccStdX**  
+* **tGravityAccStdY**  
+* **tGravityAccStdZ**  
+* **tBodyAccJerkMeanX**  
+* **tBodyAccJerkMeanY**  
+* **tBodyAccJerkMeanZ**  
+* **tBodyAccJerkStdX**  
+* **tBodyAccJerkStdY**  
+* **tBodyAccJerkStdZ**  
+* **tBodyGyroMeanX**  
+* **tBodyGyroMeanY**  
+* **tBodyGyroMeanZ**  
+* **tBodyGyroStdX**  
+* **tBodyGyroStdY**    
+* **tBodyGyroStdZ**  
+* **tBodyGyroJerkMeanX**  
+* **tBodyGyroJerkMeanY**  
+* **tBodyGyroJerkMeanZ**  
+* **tBodyGyroJerkStdX**  
+* **tBodyGyroJerkStdY**  
+* **tBodyGyroJerkStdZ**  
+* **tBodyAccMagMean**    
+* **tBodyAccMagStd**  
+* **tGravityAccMagMean**  
+* **tGravityAccMagStd**  
+* **tBodyAccJerkMagMean**  
+* **tBodyAccJerkMagStd**  
+* **tBodyGyroMagMean**  
+* **tBodyGyroMagStd**  
+* **tBodyGyroJerkMagMean**  
+* **tBodyGyroJerkMagStd**  
+* **fBodyAccMeanX**  
+* **fBodyAccMeanY**  
+* **fBodyAccMeanZ**  
+* **fBodyAccStdX**  
+* **fBodyAccStdY**  
+* **fBodyAccStdZ**  
+* **fBodyAccMeanFreqX**    
+* **fBodyAccMeanFreqY**  
+* **fBodyAccMeanFreqZ**  
+* **fBodyAccJerkMeanX**  
+* **fBodyAccJerkMeanY**  
+* **fBodyAccJerkMeanZ**  
+* **fBodyAccJerkStdX**  
+* **fBodyAccJerkStdY**  
+* **fBodyAccJerkStdZ**  
+* **fBodyAccJerkMeanFreqX**  
+* **fBodyAccJerkMeanFreqY**  
+* **fBodyAccJerkMeanFreqZ**  
+* **fBodyGyroMeanX**  
+* **fBodyGyroMeanY**  
+* **fBodyGyroMeanZ**  
+* **fBodyGyroStdX**  
+* **fBodyGyroStdY**  
+* **fBodyGyroStdZ**  
+* **fBodyGyroMeanFreqX**  
+* **fBodyGyroMeanFreqY**  
+* **fBodyGyroMeanFreqZ**  
+* **fBodyAccMagMean**  
+* **fBodyAccMagStd**  
+* **fBodyAccMagMeanFreq**  
+* **fBodyBodyAccJerkMagMean**  
+* **fBodyBodyAccJerkMagStd**  
+* **fBodyBodyAccJerkMagMeanFreq**  
+* **fBodyBodyGyroMagMean**  
+* **fBodyBodyGyroMagStd**  
+* **fBodyBodyGyroMagMeanFreq**    
+* **fBodyBodyGyroJerkMagMean**  
+* **fBodyBodyGyroJerkMagStd**  
+* **fBodyBodyGyroJerkMagMeanFreq**  
